@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "port": 5028,
   "path": "c:\\Users\\dotsyk322\\Desktop\\Sabaka",
+=======
+  "port": 26756,
+  "path": "c:\\Users\\mandziukvlad\\Desktop\\sabaka\\sabaka",
+>>>>>>> 1269270b2756702ade3d516bd4bba4e40d178b56
   "clr": "v4.0",
   "protocol": "http"
 }
