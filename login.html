@@ -17,9 +17,31 @@
   </head>
 
   <body class="text-center">
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <header class="masthead mb-auto">
+    <style>
+        .lg
+        {
+            margin-bottom: 50%;
+            background: lightgray;
+            width: 100%;
+            height: 35%;
+            padding: 15px;
+        }
+        .bt
+        {
+            height: 35px;
+            width: 50ch;
+            font-size: 15px;
+            font-style: inherit;
+            font-weight: bold;
+            color: black;
+            background: royalblue;
+        }
+        
+    </style>
+
+<header class="masthead mb-auto">
         <div class="inner">
           <h3 class="masthead-brand">Cover</h3>
           <nav class="nav nav-masthead justify-content-center">
@@ -30,22 +52,34 @@
         </div>
       </header>
 
-      <main role="main" class="inner cover">
-        <h1 class="cover-heading">Cover your page.</h1>
-        <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-        <p class="lead">
-          <a href="https://getbootstrap.com/docs/4.1/examples/cover/#" class="btn btn-lg btn-secondary">Learn more</a>
-        </p>
-      </main>
-
-      <footer class="mastfoot mt-auto">
-        <div class="inner">
-          <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-        </div>
-      </footer>
-    </div>
 
 
+<div>
+    <h1>Login Form</h1>
+</div>
+
+
+<div class="lg">
+        <br/>
+        <input type="text" name="login" placeholder="login" size="50">
+        <br/>
+        <br/>
+        <input type="password" name="password" placeholder="password" size="50">
+        <br/>
+        <br/>
+        <img src="captcha.png">
+        <br/>
+        <br/>
+        <input type="text" size="50">
+        <br/>
+        <br/>
+        <button class="bt">
+            Login
+        </button>
+        <br/>
+        <br/>
+</div>
+</div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
