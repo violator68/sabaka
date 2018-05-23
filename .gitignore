@@ -188,3 +188,4 @@ __*.tscargs.txt
 
 .vscode
 iisexpress.json
+.gitignore
