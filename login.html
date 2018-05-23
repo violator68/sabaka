@@ -10,7 +10,10 @@
     <title>Cover Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="./css-bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="./css-bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="shitstyle.css" rel="stylesheet">
+  <link href="fontawesome/fontawesome-all.css" rel="stylesheet">
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 
     <!-- Custom styles for this template -->
     <link href="./css-bootstrap/cover.css" rel="stylesheet">
@@ -22,21 +25,16 @@
     <style>
         .lg
         {
-            margin-bottom: 50%;
-            background: lightgray;
+            margin-bottom: 45%;
+            background: #c0c0c0;
             width: 100%;
-            height: 35%;
+            height: 40%;
             padding: 15px;
+            border-radius:.3rem
         }
-        .bt
+        .cp
         {
-            height: 35px;
-            width: 50ch;
-            font-size: 15px;
-            font-style: inherit;
-            font-weight: bold;
-            color: black;
-            background: royalblue;
+            margin-left: 25%;
         }
         
     </style>
@@ -45,9 +43,11 @@
         <div class="inner">
           <h3 class="masthead-brand">Cover</h3>
           <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link active" href="https://getbootstrap.com/docs/4.1/examples/cover/#">Home</a>
-            <a class="nav-link" href="https://getbootstrap.com/docs/4.1/examples/cover/#">Features</a>
-            <a class="nav-link" href="https://getbootstrap.com/docs/4.1/examples/cover/#">Contact</a>
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="login.html" class="btn btn-lg btn-secondary">Login</a>
+                <a class="nav-link active" href="register.html">Register</a>
+                <a class="nav-link" href="about.html" class="btn btn-lg btn-secondary">About</a>
+                <a class="nav-link" href="test.html" class="btn btn-lg btn-secondary">Test</a>
           </nav>
         </div>
       </header>
@@ -60,24 +60,42 @@
 
 
 <div class="lg">
+    <br/>
+        <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">
+                    <i class="fas fa-user"></i>
+                  </span>
+                </div>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+        <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">
+                    <i class="fas fa-key"></i>
+                  </span>
+                </div>
+                <input type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+              </div>
         <br/>
-        <input type="text" name="login" placeholder="login" size="50">
+        <div class="cp">
+        <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe"></div>
+        </div>
         <br/>
         <br/>
-        <input type="password" name="password" placeholder="password" size="50">
+        <div class="input-group mb-3">
+                <input type="text" class="form-control" aria-describedby="basic-addon1">
+              </div>
+        <p class="lead">
+                <a href="user.html" class="btn btn-lg btn-secondary">Login</a>
+              </p>
         <br/>
-        <br/>
-        <img src="captcha.png">
-        <br/>
-        <br/>
-        <input type="text" size="50">
-        <br/>
-        <br/>
-        <button class="bt">
-            Login
-        </button>
-        <br/>
-        <br/>
+        <p>
+            <a href="index.html">Forgot Password?</a>
+        </p>
+        <p>
+                <a href="register.html">Don't have an account?</a>
+            </p>
 </div>
 </div>
     <!-- Bootstrap core JavaScript
