@@ -2,9 +2,21 @@
 {
     margin-bottom:60%;
     background-color:#c0c0c0;
-    border-radius:.3rem
+    border-radius:.3rem;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 @media (min-width:576px)
+{
+    .jumbotron1
+    {
+        padding:4rem 2rem;
+        padding-bottom: 1rem;
+        
+    }
+}
+
+@media (min-width:10px)
 {
     .jumbotron1
     {
@@ -46,4 +58,19 @@
 .Register
 {
     font-size: 60;
+}
+
+
+.jumbotron2
+{
+    margin-bottom:60%;
+}
+
+
+
+.jumbotron2-fluid
+{
+    padding-right:0;
+    padding-left:0;
+    border-radius:0
 }
